@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/image.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-box{
+    max-width: 460px;
+    background-color: #fff;
+    color: #111;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+}
+
+.terms-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.terms-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #282828;
+}
+
+.terms-text::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.terms-text h2{
+    text-transform: uppercase;
+}
+
+.terms-box h4{
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.terms-box h4 span{
+    color: #fe5196;
+}
+
+.Title{
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.buttons{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    width: 120px;
+    border: 1;
+    border-radius: 4px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #000000;
+    transition: .3s linear;
+    background-color: #fff;
+}
+
+.buttons :hover{
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.buttons a{
+    height: 50px;
+    width: 120px;
+    border: 15;
+    border-radius: 4px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #000000;
+    transition: .3s linear;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
